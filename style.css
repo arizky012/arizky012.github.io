@@ -4,10 +4,24 @@
 #projects {
   background-color: #e2edff;
 }
-section {
-  padding: 25vh 0rem;
-  height: 100vh;
-}
+
 section html {
   scroll-behavior: smooth;
+}
+section {
+  height: 100vh;
+  padding: 25vh 0vw;
+}
+
+@media (min-height: 1900) {
+  section {
+    padding: 480px 0rem;
+    height: 1920px;
+  }
+}
+@media (min-height: 1280) {
+  section {
+    padding: 320px 0rem;
+    height: 1280px;
+  }
 }
